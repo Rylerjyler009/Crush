@@ -14,7 +14,12 @@
     <div class="text-over-video">
         <h1 class="fst-italic lh-1 mb-4">Fill in the names of your crushes</h1>
         <p class="mb-5">One of them is also crushing on you. Meet them this Valentines!</p>
-        <button type="button" id="but">Let's Go!</button>
+        <button type="button" id="but" value="Redirect">Let's Go!</button>
+        <script>
+            document.getElementById('but').addEventListener('click', function() {
+                window.location.href = '/keep';
+            });
+        </script>
       </div>
     </div>
     <!-- <script src="index.js" charset="utf-8"></script> -->
